@@ -1,0 +1,61 @@
+<!DOCTPE html>
+  <head>
+    <title>Web2GIF</title>
+    <style>
+      body{
+        background-color: green;
+      }
+      .head{
+        font-family: cursive;
+        font-size: 100px;
+        color: gold;
+        animation: appear 2s;
+        text-align: center;
+      }
+      .desc{
+        font-size: 40px;
+        color: orange;
+      }
+      .item1{
+        animation: slide 3s linear;
+      }
+      .item2{
+        animation: slide 4s linear;
+      }
+      .item3{
+        animation: slide 5s linear;
+      }
+      .item4{
+        animation: slide 6s linear;
+      }
+      @keyframes appear{
+        0%{
+          opacity: 0;
+        }
+        50%{
+          opacity: 0.5;
+        }
+        100%{
+          opacity: 1;
+        }
+      }
+      @keyframes slide{
+        0%{
+        margin-left: -100%;
+        }
+        100%{
+        margin-left: 0%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="head">Web2GIF</h1>
+    <ul class="desc">
+      <li class="item1">Web2GIF turns browser animations into shareable GIF files</li>
+      <li class="item2">The only condition is that the animation is playable in browser</li> 
+      <li class="item3">You can set the frame rate and duration of the animation</li>
+      <li class="item4">Also choose between Chrome (default) and Firefox web drivers</li>
+    </ul>
+  </body>
+</html>
