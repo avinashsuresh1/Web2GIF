@@ -19,3 +19,5 @@ Selenium and Pillow
 
 3. Execute Web2GIF.py in IDE of your choice (or use terminal)
 4. Complete the form and click Generate to generate GIF from your web animation file
+
+(Sample animation file animation.html provided, which generated animation.gif)
