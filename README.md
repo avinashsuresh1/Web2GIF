@@ -5,7 +5,7 @@
 
 
 ## Dependencies
-Selenium and Pillow (use pip install)
+Selenium and Pillow
 
 ## How to use
 
