@@ -13,8 +13,8 @@ Selenium and Pillow (use pip install)
 2. Run in terminal:
 
 <code>
-pip install selenium
-pip install pillow
+  pip install selenium
+  pip install pillow
 </code>
 
 3. Execute Web2GIF.py
