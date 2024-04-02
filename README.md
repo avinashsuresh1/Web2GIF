@@ -6,3 +6,14 @@
 
 ## Dependencies
 Selenium and Pillow (use pip install)
+
+## How to use
+
+1. Install python
+2. Run in terminal:
+
+pip install selenium
+pip install pillow
+
+3. Execute Web2GIF.py
+4. Complete the form and submit to  generate GIF from your web animation file
