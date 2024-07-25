@@ -22,4 +22,4 @@ Selenium and Pillow
 
 (Sample animation file animation.html provided, which generated animation.gif)
 
-#### Note: Currently, Edge and Safari are not supported, as Selenium doesn't have direct support for them. It may be updated in future.
+#### Note: Currently Edge and Safari are not supported, as Selenium doesn't have direct support for them. It may be updated in future.
