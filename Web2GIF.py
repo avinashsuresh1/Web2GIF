@@ -31,7 +31,9 @@ def submit():
 
 root = tk.Tk()
 root.title("Web2GIF")
-window = ttk.Frame(root, width=640, height=600, padding="10 10 10 10")
+
+#Standard aspect ratio 16:9
+window = ttk.Frame(root, width=1024, height=576, padding="10 10 10 10")
 window.grid_propagate(0)
 window.grid(column=0, row=0, sticky=(tk.N,tk.W,tk.E,tk.S))
 file = tk.StringVar()
